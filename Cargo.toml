@@ -1,0 +1,10 @@
+[package]
+name = "dungeoncrawl"
+version = "0.1.0"
+edition = "2021"
+authors = ["yhl2333<SY2303526@buaa.edu.cn>"]
+
+[dependencies]
+bracket-lib = "~0.8.1"
+legion = "0.3.1"
+
