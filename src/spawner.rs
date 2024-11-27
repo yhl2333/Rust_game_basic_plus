@@ -38,7 +38,7 @@ pub fn spawn_monster(ecs: &mut World, pos: Point, rng: &mut RandomNumberGenerato
 
 
 fn goblin() -> (i32, String, FontCharType){
-    (2, "Goblin".to_string(), to_cp437('g'))
+    (1, "Goblin".to_string(), to_cp437('g'))
 }
 
 fn orc() -> (i32, String, FontCharType){
