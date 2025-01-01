@@ -18,7 +18,7 @@ pub fn player_input( ecs: &mut SubWorld, commands: &mut CommandBuffer, #[resourc
             };
 
             let (player_entity, destination) = players
-                .iter(ecs)
+                .iter(ecs)  
                 .find_map(|(entity,pos)| Some((*entity, *pos+delta)))
                 .unwrap();
 
